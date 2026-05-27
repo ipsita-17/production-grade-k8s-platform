@@ -1,0 +1,11 @@
+1. mkdir frontend backend kubernetes helm argocd monitoring github-actions docs
+2. mkdir -p backend/app
+3. code .
+4. add backend, dockerfile & requirement.txt
+5. add backend/add/main.py
+6. cd backend
+7. pip install -r requirements.txt
+8. cd backend
+9. docker build -t k8s-platform-backend .
+10. docker images (k8s-platform-backend)
+11. docker run -p 8000:8000 k8s-platform-backend
