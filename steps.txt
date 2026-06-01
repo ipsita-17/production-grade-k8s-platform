@@ -13,5 +13,5 @@
 13. add deployment.yaml and rest 2 files
 14. cd helm 
 15. create backend-chart and 2 files 
-16. create templates nd 3 files
-17. 
+16. create and add templates nd 3 files
+17. Add ci.yml in github-actions
