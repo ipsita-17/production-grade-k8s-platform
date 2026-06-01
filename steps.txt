@@ -9,3 +9,9 @@
 9. docker build -t k8s-platform-backend .
 10. docker images (k8s-platform-backend)
 11. docker run -p 8000:8000 k8s-platform-backend
+12. cd kubernetes
+13. add deployment.yaml and rest 2 files
+14. cd helm 
+15. create backend-chart and 2 files 
+16. create templates nd 3 files
+17. 
